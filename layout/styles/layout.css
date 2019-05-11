@@ -42,6 +42,26 @@ File: Layout CSS
 
 /* Content Area
 --------------------------------------------------------------------------------------------------------------- */
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
 .bg-box {
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
@@ -204,13 +224,7 @@ Delete it completely to stop fading
 /* ------------------------------------------------------------------------------------------------------------ */
 /* ------------------------------------------------------------------------------------------------------------ */
 /* ------------------------------------------------------------------------------------------------------------ */
-img {
-    width: 120px;
-    height: 60px;
-    position: absolute;
-    left:0;
-    top:0;
-}
+
 
 /* Navigation
 --------------------------------------------------------------------------------------------------------------- */
@@ -351,12 +365,24 @@ input:focus, textarea:focus, *:required:focus{border-color:#56AED4;}
 /* Page Intro */
 #pageintro p:first-of-type{color:rgba(0,0,0,.5);}
 
-
+.row img {
+    width: 120px;
+    height: 60px;
+    position: absolute;
+    left:0;
+    top:0;
+}
 /* Content Area */
 .services li article{color:#e6f2ff; background-color:#00000;}
 .services li article i{color:#e6f2ff; background:#e6f2ff; border-color:#FFFFFF;}
 .services li article:hover i{color:#e6f2ff; background:#e6f2ff;}
-
+.article img {
+    width: 120px;
+    height: 60px;
+    position: absolute;
+    left:0;
+    top:0;
+}
 
 /* Split Box */
 .split section, .split section::after{color:#FFFFFF; background-color:rgba(30,33,83,.5)/* #E43F21 */;}
